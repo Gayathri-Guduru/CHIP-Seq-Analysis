@@ -4,22 +4,22 @@
 In this workflow, we'll process Drosophila ChIP-Seq datasets that have been spiked-in with data from another species. The purpose of the spike-in is to account for variability in ChIP and sequencing efficiencies, allowing for more accurate normalization between samples.
 
 ## Table of Contents
-Quality Control
-Alignment
-Post-processing
-Peak Calling
-Differential Binding Analysis
-Annotation & Functional Analysi\/
+Quality Control \
+Alignment \
+Post-processing \
+Peak Calling \
+Differential Binding Analysis \
+Annotation & Functional Analysis 
 
 ## Commonly used file formats for ChIP-seq
 
 • FASTA \
 • FASTQ – Fasta with quality \ 
-• SAM – Sequence Alignment/Map format \
+• SAM – Sequence Alignment or Map format \
 • BAM – Binary Sequence Alignment/Map format \
 • Bed – Basic genome interval \
 • BedGraph \
-• Wiggle (wig, bigwig) – tab-limited format to represent continuous value \
+• Wiggle (wig, bigwig) – tab-limited format to represent continuous value 
 
 ## ChIP-seq data have several characteristics:
 
