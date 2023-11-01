@@ -13,8 +13,8 @@ Annotation & Functional Analysi\/
 
 ## Commonly used file formats for ChIP-seq
 
-• FASTA 
-• FASTQ – Fasta with quality 
+• FASTA \/
+• FASTQ – Fasta with quality \/ 
 • SAM – Sequence Alignment/Map format 
 • BAM – Binary Sequence Alignment/Map format 
 • Bed – Basic genome interval 
