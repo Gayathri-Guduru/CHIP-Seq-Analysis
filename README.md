@@ -9,7 +9,7 @@ Alignment
 Post-processing
 Peak Calling
 Differential Binding Analysis
-Annotation & Functional Analysis
+Annotation & Functional Analysi\/
 
 ## ChIP-seq data have several characteristics:
 
@@ -40,7 +40,7 @@ multiqc output_directory/ -o multiqc_report/
 ## Trimming (optional)
 When needed, trimming is performed with ```trimmomatic```
 ```
-
+Trimmomatic PE -threads 1 $input/file/1 $input/file/2 /$output/trimmed_paired/file/1 $output/trimmed_unpaired/file/1 $output/trimmed_paired/file/2 $output/trimmed_unpaired/file/2 ILLUMINACLIP:$Trimmomatic_Path/adapters/TruSeq3-PE-2.fa:2:40:12:8:true LEADING:10 SLIDINGWINDOW:4:15 MINLEN:50 2> read_processing.log
 ```
 
 # Alignment to reference genome
@@ -98,7 +98,7 @@ macs2 callpeak -t marked_sample.bam -c control_sample.bam -f BAM -g dm -n sample
 ## Visualization: Use tools like deepTools or the Integrative Genomics Viewer (IGV) to visualize the ChIP-Seq profiles and peaks.
 
 ## Differential Binding Analysis (if comparing different conditions): Use tools like DiffBind or DESeq2 to find regions with differential binding between conditions.
-# In R
+## In R
 ```library(DiffBind)
 dba <- dba(sampleSheet="samples.csv")
 dba <- dba.analyze(dba)
