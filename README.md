@@ -11,6 +11,16 @@ Peak Calling
 Differential Binding Analysis
 Annotation & Functional Analysi\/
 
+## Commonly used file formats for ChIP-seq
+
+• FASTA 
+• FASTQ – Fasta with quality 
+• SAM – Sequence Alignment/Map format 
+• BAM – Binary Sequence Alignment/Map format 
+• Bed – Basic genome interval 
+• BedGraph 
+• Wiggle (wig, bigwig) – tab-limited format to represent continuous value
+
 ## ChIP-seq data have several characteristics:
 
 Histone modifications cover broader regions of DNA than TFs.
