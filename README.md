@@ -4,12 +4,12 @@
 In this workflow, we'll process Drosophila ChIP-Seq datasets that have been spiked-in with data from another species. The purpose of the spike-in is to account for variability in ChIP and sequencing efficiencies, allowing for more accurate normalization between samples.
 
 ## Table of Contents
-Quality Control \
-Alignment \
-Post-processing \
-Peak Calling \
-Differential Binding Analysis \
-Annotation & Functional Analysis 
+• Quality Control \
+• Alignment \
+• Post-processing \
+• Peak Calling \
+• Differential Binding Analysis \
+• Annotation & Functional Analysis 
 
 ## Commonly used file formats for ChIP-seq
 
@@ -23,16 +23,16 @@ Annotation & Functional Analysis
 
 ## ChIP-seq data have several characteristics:
 
-Histone modifications cover broader regions of DNA than TFs.
-Reads are trimmed to within a smaller number of bases.
-Fragments are quite large relative to binding sites of TFs.
-Measurements of histone modification often undulate following well-positioned nucleosomes.
+• Histone modifications cover broader regions of DNA than TFs.
+• Reads are trimmed to within a smaller number of bases.
+• Fragments are quite large relative to binding sites of TFs.
+• Measurements of histone modification often undulate following well-positioned nucleosomes.
 
 ## To extract meaningful data from the raw sequence reads, the ChIP-seq data analysis should:
 
-Identify genomic regions - ‘peaks’ - where TF binds or histones are modified.
-Quantify and compare levels of binding or histone modification between samples.
-Characterize the relationships among chromatin state and gene expression or splicing.
+• Identify genomic regions - ‘peaks’ - where TF binds or histones are modified.
+• Quantify and compare levels of binding or histone modification between samples.
+• Characterize the relationships among chromatin state and gene expression or splicing.
 
 ![image](https://github.com/Gayathri-Guduru/CHIP-Seq-Analysis/assets/98939664/41e438cb-a737-4d5a-9bae-a72bdf4f5097)
 
