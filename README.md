@@ -24,7 +24,8 @@ Identify genomic regions - ‘peaks’ - where TF binds or histones are modified
 Quantify and compare levels of binding or histone modification between samples.
 Characterize the relationships among chromatin state and gene expression or splicing.
 
-![chipseq_workflow](https://github.com/Gayathri-Guduru/CHIP-Seq-Analysis/assets/98939664/e1e300d0-1f2c-46b0-bcb2-dd63d9a2cd6e)
+![image](https://github.com/Gayathri-Guduru/CHIP-Seq-Analysis/assets/98939664/41e438cb-a737-4d5a-9bae-a72bdf4f5097)
+
 
 # Data pre-processing
 ## Quality control for Quality Check
