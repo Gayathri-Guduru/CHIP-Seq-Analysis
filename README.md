@@ -23,15 +23,15 @@ In this workflow, we'll process Drosophila ChIP-Seq datasets that have been spik
 
 ## ChIP-seq data have several characteristics:
 
-• Histone modifications cover broader regions of DNA than TFs.
-• Reads are trimmed to within a smaller number of bases.
-• Fragments are quite large relative to binding sites of TFs.
+• Histone modifications cover broader regions of DNA than TFs.\
+• Reads are trimmed to within a smaller number of bases.\
+• Fragments are quite large relative to binding sites of TFs.\
 • Measurements of histone modification often undulate following well-positioned nucleosomes.
 
 ## To extract meaningful data from the raw sequence reads, the ChIP-seq data analysis should:
 
-• Identify genomic regions - ‘peaks’ - where TF binds or histones are modified.
-• Quantify and compare levels of binding or histone modification between samples.
+• Identify genomic regions - ‘peaks’ - where TF binds or histones are modified.\
+• Quantify and compare levels of binding or histone modification between samples.\
 • Characterize the relationships among chromatin state and gene expression or splicing.
 
 ![image](https://github.com/Gayathri-Guduru/CHIP-Seq-Analysis/assets/98939664/41e438cb-a737-4d5a-9bae-a72bdf4f5097)
